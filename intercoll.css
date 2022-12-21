@@ -1,0 +1,132 @@
+body {background-color:aliceblue ;}
+table{
+    width: 50%;
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-left: auto; 
+}
+th {
+height: 70px;
+padding: 15px;
+border-bottom: 1px solid #ddd;
+background-color: #04AA6D;
+}
+td {
+text-align: left;
+vertical-align: bottom;
+height: 50px;
+padding: 15px;
+border-bottom: 1px solid #ddd;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+.column {
+flex: 50%;
+padding: 5px;
+}
+.row{
+display: flex;
+}
+.img{
+height: 930px;
+width: 400px;;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  .container:hover .overlay {
+    width: 100%;
+    left: 0;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+  .container {
+    position: relative;
+    width: 100%;
+  }  
+  #header
+{
+  background-color: black;
+  color: white;
+  min-height: 75px;
+  border: 1px solid transparent;
+  padding: 0px;
+}
+#inner-header
+{
+  width: 80%;
+  margin: auto;
+}
+#sl
+{
+  float:right; 
+  padding-top: 20px;
+  padding: 15px 15px; 
+  background-color: black;  
+}
+#sl1{
+  background-color: black;
+  border-color: #000;
+}
+#footer
+{
+  background-color: black;
+  color: white;
+  min-height: 50px;
+  border: 1px solid transparent;
+  padding: 0px;
+}
+#inner-footer
+{
+  width: 80%;
+  margin: auto;
+  padding: 15px;
+  font-size: 15px; 
+  text-align: center;
+}
+#btn
+{
+  color: beige; 
+  background-color: crimson; 
+  border-color: crimson; 
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125); 
+  padding: 10px 16px; 
+  font-size: 18px; 
+  border-radius: 6px;
+}
+#logo
+{
+  float: left;
+  padding: 10px;
+  padding-top: 20px;
+  font-size: 20px; 
+  font-weight: bold;
+}
+#tb{
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+#name{
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  padding-left: 20%;
+}

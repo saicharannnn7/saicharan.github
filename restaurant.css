@@ -1,0 +1,227 @@
+body{
+    margin: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+#header
+{
+    background-color: black;
+    color: white;
+    min-height: 75px;
+    border: 1px solid transparent;
+    padding: 0px;
+}
+#inner-header
+{
+    width: 80%;
+    margin: auto;
+}
+#logo
+{
+    float: left;
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 20px; 
+    font-weight: bold;
+}
+#sl
+{
+    float:right; 
+    padding-top: 20px;
+    padding: 15px 15px;   
+    background-color: black;
+}
+#sl1{
+    background-color: black;
+    border-color: #000;
+  }
+#page
+{
+    float: left;
+    padding-left: 300px;
+    padding-top :10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#bt
+{
+    color :white;
+    font-size:16px; 
+    font-weight: bold;
+    background-color: black;
+}
+#content
+{
+    min-height: 1000px;
+} 
+/* #txt
+{
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    overflow: hidden;
+    margin-bottom: 12%;
+    margin-left: 20%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    max-width: 660px;
+    /* text-align: center;
+    margin: 20px; */
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+} */
+#banner-image
+{
+    padding: 20px; 
+    /* margin-bottom: 20px;  */
+    text-align: center; 
+    color:white; 
+    background: url(./images/food\ banner.jpg) no-repeat center; 
+    background-size: cover;
+}
+/* #inner-banner-image
+{
+    padding-top: 12%; 
+    width:80%; 
+    margin:auto;
+} */
+#Restaurants-1
+{
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 50px; 
+    /* margin-bottom: 50px; */
+    margin-left: 380px;
+    margin-right: 380px;
+    /* background-color: rgb(231, 201, 67); */
+    background-color:dimgrey;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+}
+#Restaurants-2
+{
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 750px;
+    margin-left: 380px;
+    margin-right: 380px;
+    /* background-color: rgb(231, 201, 67); */
+    background-color: dimgrey;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+}
+#Restaurants-3
+{
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 750px;
+    margin-left: 380px;
+    margin-right: 380px;
+    /* background-color: rgb(231, 201, 67); */
+    background-color:dimgrey;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+}
+#Restaurants-4
+{
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 750px;
+    margin-left: 380px;
+    margin-right: 380px;
+     /* background-color: rgb(231, 201, 67);*/
+    background-color:dimgrey;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+}
+#items-1{
+    width: 300px;
+    height: 250px; 
+    padding: 15px;
+    margin: 55px;
+    /* margin-top: 0%;  */
+    border-radius: 5px;
+    /* background-color: lightgray; */ 
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    float: left;
+    margin-bottom: 10px; 
+    /* box-shadow: 10px 10px grey; */
+}
+#items-1:hover
+{
+    box-shadow: 5px 5px 5px darkgrey;
+}
+#items:hover
+{
+    box-shadow: 5px 5px 5px darkgrey;
+}
+#scrolling-wrapper
+{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+}
+#items{
+    width: 300px;
+    height: 250px; 
+    padding: 15px;
+    margin: 55px;
+    /* margin-top: 0%;  */
+    border-radius: 5px;
+    background-color:black; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    float: left;
+    margin-bottom: 10px;
+}
+#img
+{
+    max-width: 100%;
+    height: 75%;
+    display: flexbox;
+}
+#caption
+{
+    color: white;
+    font-weight: 370;
+    font-size: 25px;
+}
+#footer
+{
+     margin-top: 750px; /*increase this to decrerease the size if of footer */
+    background-color: black;
+    color: white;
+    min-height: 50px;
+    border: 1px solid transparent;
+    padding: 0px;
+}
+#inner-footer
+{
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    font-size: 15px; 
+    text-align: center;
+}
+#items #img{
+    display: block;
+    border-radius: 5px;
+  }
+  #items:hover{
+      transform:scale(1.1);
+      z-index: 2;
+  }
+  #items-1 #img{
+    display: block;
+    border-radius: 5px;
+  }
+  #items-1:hover{
+      transform:scale(1.1);
+      z-index: 2;
+  }

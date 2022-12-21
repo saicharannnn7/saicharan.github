@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link href="signin.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <div id="whole page">
+        <div id="header">
+            <div id="inner-header">
+                <div id="logo">Explore Hyderabad</div>
+                <!-- <div id="sl"><a href="form.html" target="_blank"><button id="sl1" type="button" class="btn btn-primary">Feedback</button></a>
+                <a href="aboutus.html" target="_blank"><button id="sl1" type="button" class="btn btn-primary">About Us</button></a>
+                <a href="index.html" target="_blank"><button id="sl1" type="button" class="btn btn-primary">Home</button></a></div> -->
+            </div>
+        </div>
+        <div id="content">
+            <div id="banner-image">
+                <div id="inner-banner-image">
+                    <div id="banner-content"><h1>Know your city.</h1><p>Tourism, Restaurants, Schools, Hospitals</p><div><a href="signup.html" target="_blank"><button id="sl1" type="button" class="btn btn-primary">Sign Up</button></a></div></div></div>
+                </div>
+            </div>
+        </div>
+    <form action="https://sheetdb.io/api/v1/oeamh84171zr9" method="post" id="sheetdb-form">
+        <div class="imgcontainer">
+          <img src="https://media.istockphoto.com/id/1300258730/photo/logon-online-form-cyber-security-concept-image.jpg?b=1&s=170667a&w=0&k=20&c=XckuOlC9dE8li90uOpdolsydhrQ08fQD-fB4mavjbFM=" alt="Avatar" class="avatar">
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="data[uname]" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="data[psw]" required>
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+      <script>
+        var form = document.getElementById('sheetdb-form');
+    form.addEventListener("submit", e => {
+      e.preventDefault();
+      fetch(form.action, {
+          method : "POST",
+          body: new FormData(document.getElementById("sheetdb-form")),
+      }).then(
+          response => response.json()
+      ).then((html) => {
+        // you can put any JS code here
+        window.open('index.html', '_blank');
+
+      });
+    });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</body>
+</html>

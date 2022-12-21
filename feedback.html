@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./feedback.css">
+</head>
+
+<body>
+    <div id="whole page">
+        <div id="header">
+            <div id="inner-header">
+                <div id="logo">Explore Hyderabad</div>
+                <!-- <div id="sl"><a href="aboutUs.html" target="_blank"><button id="bt">AboutUs</button></a></div> -->
+                <div id="sl"><a href="index.html"><button id="bt">Home</button></a></div>
+            </div>
+        </div>
+        <h1 class="heading" >Feedback Form</h1>
+        <div id="form">
+           <strong style="margin-left:20px"> Name</strong>
+            <table>
+                <tr>
+                    <td>
+                        <input type="text" id="Fname"  >
+  
+                    </td>
+                    <td>
+                        <input type="text" id="Lname">
+                    </td>
+                </tr>
+            </table>
+            <table>
+            <tr>
+
+                <td>
+                <p id="name1">FirstName</p>
+                </td>
+                <td>
+                    <p id="name2">LastName</p>
+                </td>
+            </tr>
+        </table>
+
+<table>
+    <tr>
+            <p style="margin-left:30px"> Please provide your feedback on the quality of our service</p>
+        </tr>
+    <tr>
+        <input type="radio" id="radiobuttons" name="Rbutton" value="Excellent" style="margin-left: 25px;">
+        <label for="Excellent">Excellent</label>
+        <input type="radio" id="radiobuttons" name="Rbutton" value="Very Good" style="margin-left:25px">
+        <label for="Very Good">Very Good</label>
+
+        <input type="radio" id="radiobuttons" name="Rbutton" value="Good" style="margin-left:25px;">
+        <label for="Good">Good</label>
+
+        <input type="radio" id="radiobuttons" name="Rbutton" value="Average" style="margin-left:25px;">
+        <label for="Average">Average</label>
+
+        <input type="radio" id="radiobuttons" name="Rbutton" value="Poor" style="margin-left:25px;">
+        <label for="Poor">Poor</label>
+
+    </tr>
+</table>  
+<br>
+
+<table>
+<tr>
+    <p style="margin-left:30px;"> Do you have suggestions on what we can do to provide you with a better service? </p>
+</tr>
+<tr>
+    <input type="textarea" id="textarea" style="font-size:20px;">
+</tr>
+</table>
+</div>
+<button id="button" style="font-weight: bold;" onclick="submit();">
+Submit
+</button>
+
+    <div id="footer">
+        <div id="inner-footer">Copyright @ Explore Hyderabad. All Rights Reserved | Contact Us: +91 90000 00000
+        </div>
+    </div>
+</div>
+<script src="./feedback.js"></script>
+</body>
+
+</html>
